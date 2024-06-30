@@ -1,5 +1,5 @@
 _schema-version: '3.1'
-ID: comp-shop-cap
+ID: custsalpshop-10
 version: 1.0.0
 description: "A simple CAP project."
 parameters:
@@ -11,7 +11,7 @@ build-parameters:
         - npm ci
         - npx cds build --production
 modules:
-  - name: comp-shop-cap-srv
+  - name: custsalpshop-10-srv
     type: nodejs
     path: gen/srv
     parameters:
@@ -25,18 +25,18 @@ modules:
         properties:
           srv-url: ${default-url}
     requires:
-      - name: comp-shop-cap-db
+      - name: custsalpshop-10-db
 
-  - name: comp-shop-cap-db-deployer
+  - name: custsalpshop-10-db-deployer
     type: hdb
     path: gen/db
     parameters:
       buildpack: nodejs_buildpack
     requires:
-      - name: comp-shop-cap-db
+      - name: custsalpshop-10-db
 
 resources:
-  - name: comp-shop-cap-db
+  - name: custsalpshop-10-db
     type: com.sap.xs.hdi-container
     parameters:
       service: hana

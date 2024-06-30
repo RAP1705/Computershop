@@ -1,0 +1,11 @@
+ID,customerID,computerID,price,createdAt,createdBy,modifiedAt,modifiedBy
+31465392-a62f-4eee-b71e-e824a2a48d1d,90,52,61.14,2013-08-26T00:00:00.000Z,createdBy.iqeuo@example.com,2005-05-18T00:00:00.000Z,modifiedBy.iqeuo@example.org
+31465393-ec6d-44a2-a52e-e2eb98556c6c,65,45,12.28,2020-06-15T00:00:00.000Z,createdBy.iqeup@example.com,2008-05-24T00:00:00.000Z,modifiedBy.iqeup@example.net
+31465394-8be9-42c6-98a6-fc87e6ca3173,19,25,82.27,2010-03-10T00:00:00.000Z,createdBy.iqeuq@example.org,2013-03-23T00:00:00.000Z,modifiedBy.iqeuq@example.com
+31465395-5eec-4e99-8ad4-45a61c1346c1,48,75,7.42,2022-02-03T00:00:00.000Z,createdBy.iqeur@example.net,2016-06-15T00:00:00.000Z,modifiedBy.iqeur@example.net
+31465396-cd63-427a-9ec2-26de83baf8ac,66,92,96.18,2018-04-26T00:00:00.000Z,createdBy.iqeus@example.org,2008-06-04T00:00:00.000Z,modifiedBy.iqeus@example.net
+31465397-21dc-4d1b-a2b0-7d38e1efd2f0,91,35,43.78,2001-11-24T00:00:00.000Z,createdBy.iqeut@example.net,2003-01-04T00:00:00.000Z,modifiedBy.iqeut@example.com
+31465398-3dc8-4c4e-ba24-18f9b290634a,45,93,77.25,2017-05-11T00:00:00.000Z,createdBy.iqeuu@example.net,2017-11-28T00:00:00.000Z,modifiedBy.iqeuu@example.com
+31465399-cd17-4d16-96f1-142d8e98be49,46,84,67.22,2018-02-19T00:00:00.000Z,createdBy.iqeuv@example.com,2023-11-15T00:00:00.000Z,modifiedBy.iqeuv@example.com
+31465400-e67b-4f55-b658-0c4a38e9d25d,67,43,19.68,2022-02-10T00:00:00.000Z,createdBy.iqeuw@example.org,2007-11-22T00:00:00.000Z,modifiedBy.iqeuw@example.com
+31465401-67cc-4a0b-a9ff-35a6e753a7ee,58,24,64.49,2003-08-17T00:00:00.000Z,createdBy.iqeux@example.net,2010-04-07T00:00:00.000Z,modifiedBy.iqeux@example.net
