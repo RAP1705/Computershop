@@ -26,3 +26,25 @@ entity Sales : managed
     price : Decimal;
 }
 
+entity sales_overview as select key sal.ID as salesID,
+sal.customerID as customerID,
+cust.name as  customername,
+cust.phone as customerphone,
+cust.address as customeraddress,
+com.ID as computerID,
+com.name as computername,
+sal.price as salesamount
+
+
+from Sales as sal
+left join Customers as cust
+on sal.customerID = cust.ID
+left join Computers as com
+on sal.computerID = com.ID
+
+
+
+
+;
+
+
