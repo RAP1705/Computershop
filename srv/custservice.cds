@@ -9,7 +9,7 @@ virtual intermediate : String ;
 virtual highend      : String
 
 }
-
+//error message?
 
 service salesoverview1
 {
