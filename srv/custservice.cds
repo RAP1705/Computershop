@@ -1,6 +1,17 @@
 using { custmodel as lion } from '../db/cust_model';
 
-service salesoverview
+//  @core.compute: false 
+
+extend  custmodel.Sales_overview with {
+ 
+virtual lowselling   : String ;
+virtual intermediate : String ;
+virtual highend      : String
+
+}
+
+
+service salesoverview1
 {
     @odata.draft.enabled
     entity Computers as
@@ -15,6 +26,7 @@ service salesoverview
         projection on lion.Sales;
 
     @readonly
-    entity sales_overview as
-        projection on lion.sales_overview;
+    entity Sales_overview as
+        select from lion.Sales_overview;
 }
+
