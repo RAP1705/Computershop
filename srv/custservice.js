@@ -23,8 +23,6 @@ this.after = ('EACH','Sales', (results, req) => {
     });
 
 
-
-
 //     let query = SELECT.from('')
 
 //     if ( Sales_overview.salesamount < 50  ) {
