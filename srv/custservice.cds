@@ -1,14 +1,23 @@
 using { custmodel as lion } from '../db/cust_model';
 
-//  @core.compute: false 
+  //@core.compute: True 
 
-extend  custmodel.Sales_overview with {
- 
-virtual lowselling   : String ;
-virtual intermediate : String ;
-virtual highend      : String
+// extend  projection custmodel.Sales_overview {
 
+// virtual lowselling   : String ,
+// virtual intermediate : String ,
+// virtual highend      : String 
+
+
+// }
+
+extend custmodel.Sales with {
+
+    virtual lowselling    : String;
+     virtual intermediate : String ;
+    virtual highend       : String;
 }
+
 //error message?
 
 service salesoverview1

@@ -1,22 +1,29 @@
 const cds = require ('@sap/cds');
 const console = require ('console');
+const { watch } = require('fs');
 //const logger = cds.logger ('mycaplogger');
 
+module.exports = cds.service.impl(function (){
 
-
-this.after = ('EACH','Sales_overview', (results, req) => {
+this.after = ('EACH','Sales', (results, req) => {
 // logger (results);
     
-          if (results.salesamount  < 50  ) {
+          if (results.price  < 50.0  ) {
                     results.lowselling = "too low"
 
-}  else if (results.  > 50 & results.salesamount  > 1000) 
+}  else if (results.price  > 50.0 & results.price  < 1000.0) 
                    { results.intermediate = "Going good Charlie"} 
             
            else results.highend = "Expensive items"
 
-           
+//Call the store procedure        
+
+//call storeprocedure()
+
     });
+
+
+
 
 //     let query = SELECT.from('')
 
@@ -30,6 +37,4 @@ this.after = ('EACH','Sales_overview', (results, req) => {
    
 
 
-
-
-
+});

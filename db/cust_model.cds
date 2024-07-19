@@ -40,7 +40,13 @@ left join Customers as cust
 on sal.customerID = cust.ID
 left join Computers as com
 on sal.computerID = com.ID
+
 ;
+
+// CREATE PROCEDURE procedure_name
+// AS
+// sql_statement
+// GO;
 
 
 

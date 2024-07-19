@@ -1,0 +1,22 @@
+CREATE PROCEDURE storeprocedure()
+language SQLSCRIPT
+SQL security INVOKER
+
+READS READS SQL DATA
+
+AS
+BEGIN
+    SELECT * from custmodel.Sales ;
+
+if (price > 20)
+    results.fastselling = "Fast selling"
+
+
+
+end if
+
+
+END
+
+call storeprocedure();
+
