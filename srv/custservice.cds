@@ -11,7 +11,7 @@ using { custmodel as lion } from '../db/cust_model';
 
 // }
 
-extend custmodel.Sales with {
+extend custmodel.Sales_overview with {
 
     virtual lowselling    : String;
      virtual intermediate : String ;
@@ -36,6 +36,6 @@ service salesoverview1
 
     @readonly
     entity Sales_overview as
-        select from lion.Sales_overview;
+        projection on  lion.Sales_overview;
 }
 

@@ -43,12 +43,18 @@ on sal.computerID = com.ID
 
 ;
 
+
+
+
+
+
+
 // CREATE PROCEDURE procedure_name
 // AS
 // sql_statement
 // GO;
 
-
+//LTER TABLE dbo.Products ADD RetailValue AS (QtyAvailable * UnitPrice * 1.5);
 
     
 
